@@ -38,14 +38,14 @@ For example, let us say we have a document in that we have content "I am an engi
 but, if we search like this (like in SQL: like '%engin%''), we can't find any result:
 ![](https://github.com/neelanshijain3111998/NeelanshiMarkdown/blob/master/images/Not_correct.png)
 
+
 ### What is Elasticsearch?<a name="A1"></a> ![image](https://user-images.githubusercontent.com/79247910/125027149-6e509d00-e0a3-11eb-933b-5ce01fff9e55.png)
-
-
 
 It is an open-source Analytics and full-text search engine. It was first released by **Elasticsearch N.V** in 2010. Elasticsearch built upon [Apache Lucene](https://lucene.apache.org/core/). It is for all types of data, including textual, numerical, structured, and unstructured.
 With the help of Elasticsearch, we can store, search data very quickly. Many large organizations across the world use it.
 
 ![](https://github.com/neelanshijain3111998/NeelanshiMarkdown/blob/master/images/RelationalElastic.png)
+
 
 An Elasticsearch document looks like this -
 
@@ -62,6 +62,7 @@ _Features_:
 3) fast
 4) Scalability
 
+
 ### Where Elasticsearch used? <a name="A2"></a>
 
 1) Application search
@@ -73,8 +74,10 @@ _Features_:
 Because, With large datasets, relational database comparatively works slow and leads to slow search from the database.
 Elasticsearch is a NoSQL distributed database, which is a solution for quick retrieval and storing data.
 
+
 ### What programming languages does Elasticsearch support? <a name="A4"></a>
 `.NET` `Java` `JavaScript` `PHP` `Perl` `Python` `Ruby`
+
 
 ### Elasticsearch - Installation <a name="A5"></a>
 > **steps-1:** check the java installed in your computer, if not then install it first . 
@@ -87,7 +90,7 @@ ___
 
 
 
-## What is Solr? <a name="B1"></a> ![](https://user-images.githubusercontent.com/79247910/125015970-2bd09580-e08e-11eb-89ba-4684b3013147.png)
+### What is Solr? <a name="B1"></a> ![](https://user-images.githubusercontent.com/79247910/125015970-2bd09580-e08e-11eb-89ba-4684b3013147.png)
 
 It's an open-source search platform written in Java from the Apache Lucene project. Not only for search, but we can also use Solr for 
 storage purpose.
@@ -97,11 +100,16 @@ _features_:
 *Restful APIs
  -To work on Solr, there is no need to know Java. We can use restful APIs to communicate with Solr.
  - We can also enter files in XML, JSON, and. CSV formats in Solr and get results in the same format.
- 
-## Apache Solr-Search Engine Basics <a name="B2"></a>
+
+
+### Apache Solr-Search Engine Basics <a name="B2"></a>
 Users can search for information by passing queries into the Search Engine with the help of keywords or phrases. The Search Engine then searches in its database and returns relevant links to the user.
 
+
+
 ![](https://user-images.githubusercontent.com/79247910/125018818-79033600-e093-11eb-86ee-10558fad3a98.png)
+
+
 
 ### Search Engine Components <a name="B3"></a>
 three basic components of a search engine.
@@ -110,6 +118,7 @@ three basic components of a search engine.
 > -Database − It stored all the information which is on the web.
 
 > -Search Interfaces − It is an interface between user and database.
+
 
 ### How Do Search Engines Work? <a name="B4"></a>
 Any search Engines perform some or all of the following operations.
@@ -125,15 +134,18 @@ Any search Engines perform some or all of the following operations.
 |7 |Search Query|the index database is checked to get the relevant details with the help of the query object.|
 |8 |Render Results|Display the results to the user.|
 
-## [Download](https://solr.apache.org/downloads.html) Solr <a name="B5"></a>
+
+### [Download](https://solr.apache.org/downloads.html) Solr <a name="B5"></a>
+
+
 ___
 
 
-## What is Lucene? <a name="C1"></a>
+### What is Lucene? <a name="C1"></a>
 It is a full-featured text search engine library written in Java. It is a powerful Java-based Search library. 
 Lucene plays a role from step 2 to step 7 mentioned in the above table. It is the heart of any search application.
 
-## Features of Lucene <a name="C2"></a> 
+### Features of Lucene <a name="C2"></a> 
 - Fast, Flexible, and stable
 - scalable, High performance
 - Full-text search capability
@@ -141,15 +153,16 @@ Lucene plays a role from step 2 to step 7 mentioned in the above table. It is th
 - powerful, Accurate, and efficient search algorithms.
 - An Apache library
 
-## Lucene vs Solr <a name="C3"></a>
+### Lucene vs Solr <a name="C3"></a>
 A simple way to explain Solr and Lucene is that of a car and its engine. You can't drive an Engine, But you can drive a car. Similarly, Lucene is a programmatic library that you can't use as-is,
 but Solr is a complete application that you can use out-of-box.
 
-## when should I use Lucene? <a name="C4"></a>
+### When should I use Lucene? <a name="C4"></a>
 If we need to embed search functionality into a desktop application, then Lucene is the more appropriate choice.
 
-## [Download](https://lucene.apache.org/core/downloads.html) Lucene <a name="C3"></a> 
+### [Download](https://lucene.apache.org/core/downloads.html) Lucene <a name="C3"></a> 
  
+___ 
 
 ## Reference <a name="D1"></a>
 https://www.elastic.co/what-is/elasticsearch
