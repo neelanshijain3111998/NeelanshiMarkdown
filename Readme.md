@@ -31,6 +31,10 @@ ___
 
 In this, we use a more advanced way to search a database. It quickly finds all instances of a word in a table without scanning rows and columns.
 It works by using text indexes.
+For example, let us say we have a document in that we have content "I am an engineer" When we want to find this content, we must find by full keyword "engineer":
+![](C:\Users\yogen\Desktop\SoftSkills\images\search_perfect.png)
+but, if we search like this (like in SQL: like '%engin%''), we can't find any result:
+![](C:\Users\yogen\Desktop\SoftSkills\images\Not_correct.png)
 
 ### What is Elasticsearch?<a name="A1"></a> ![image](https://user-images.githubusercontent.com/79247910/125027149-6e509d00-e0a3-11eb-933b-5ce01fff9e55.png)
 
@@ -110,8 +114,8 @@ Any search Engines perform some or all of the following operations.
 |1 |Acquire Raw Content|Collect the relevant content according to the user search.|
 |2 |Build the document |from the relevant content, build the documents.|
 |3 |Analyze the document|Before indexing document is analyzed.|
-|4|Indexing the document|After analyzed, index them.|
-|5|User Interface for Search|Once a database is ready, an application can perform a search operation. an application must provide a user interface where the user can enter the text.|
+|4 |Indexing the document|After analyzed, index them.|
+|5 |User Interface for Search|Once a database is ready, an application can perform a search operation. an application must provide a user interface where the user can enter the text.|
 |6 |Build Query|Once the user enters the text, the application prepares a query object using this text.|
 |7 |Search Query|the index database is checked to get the relevant details with the help of the query object.|
 |8 |Render Results|Display the results to the user.|
