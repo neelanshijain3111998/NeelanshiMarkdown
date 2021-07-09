@@ -13,13 +13,15 @@
 - [Apache Solr-Search Engine Basics](#B2)
     * [Search Engine Components](#B3)
     * [How Do Search Engines Work?](#B4)
+    * [Download(For Windows)](#B5)
 
 
 # LUCENE: FULL-TEXT SEARCH:
-
-  - [What is Lucene?](#C1)
-  - [Features of Lucene](#C2)
-  - [Download Lucene](#C3)
+- [What is Lucene?](#C1)
+- [Features of Lucene](#C2)
+- [Lucene versus Solr](#C3)
+- [when should I use Lucene?](#C4)
+- [Download Lucene](#C3)
 
 ## [reference](#D1)
 
@@ -123,24 +125,36 @@ Any search Engines perform some or all of the following operations.
 |7 |Search Query|the index database is checked to get the relevant details with the help of the query object.|
 |8 |Render Results|Display the results to the user.|
 
+## [Download](https://solr.apache.org/downloads.html) Solr <a name="B5"></a>
 ___
 
 
 ## What is Lucene? <a name="C1"></a>
-It is a full-featured text search engine library written in Java. It is a powerful Java-based Search library. Developed on Java API
-
+It is a full-featured text search engine library written in Java. It is a powerful Java-based Search library. 
+Lucene plays a role from step 2 to step 7 mentioned in the above table. It is the heart of any search application.
 
 ## Features of Lucene <a name="C2"></a> 
-- Fast, Flexible and stable
+- Fast, Flexible, and stable
 - scalable, High performance
-- Full text search capability
-- Easy to integrate Lucene search functionalities to application
+- Full-text search capability
+- Easy to integrate Lucene search functionalities into the application
+- powerful, Accurate, and efficient search algorithms.
+- An Apache library
 
-## Download Lucene <a name="C3"></a> 
- [Download](https://lucene.apache.org/core/downloads.html)
+## Lucene vs Solr <a name="C3"></a>
+A simple way to explain Solr and Lucene is that of a car and its engine. You can't drive an Engine, But you can drive a car. Similarly, Lucene is a programmatic library that you can't use as-is,
+but Solr is a complete application that you can use out-of-box.
+
+## when should I use Lucene? <a name="C4"></a>
+If we need to embed search functionality into a desktop application, then Lucene is the more appropriate choice.
+
+## [Download](https://lucene.apache.org/core/downloads.html) Lucene <a name="C3"></a> 
+ 
 
 ## Reference <a name="D1"></a>
 https://www.elastic.co/what-is/elasticsearch
+
+https://blog.avenuecode.com/elasticsearch
 
 https://www.tutorialspoint.com/apache_solr/apache_solr_quick_guide.htm
 
