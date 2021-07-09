@@ -32,9 +32,9 @@ ___
 In this, we use a more advanced way to search a database. It quickly finds all instances of a word in a table without scanning rows and columns.
 It works by using text indexes.
 For example, let us say we have a document in that we have content "I am an engineer" When we want to find this content, we must find by full keyword "engineer":
-![](C:\Users\yogen\Desktop\SoftSkills\images\search_perfect.png)
+![](https://github.com/neelanshijain3111998/NeelanshiMarkdown/blob/master/images/search_perfect.png)
 but, if we search like this (like in SQL: like '%engin%''), we can't find any result:
-![](C:\Users\yogen\Desktop\SoftSkills\images\Not_correct.png)
+![](https://github.com/neelanshijain3111998/NeelanshiMarkdown/blob/master/images/Not_correct.png)
 
 ### What is Elasticsearch?<a name="A1"></a> ![image](https://user-images.githubusercontent.com/79247910/125027149-6e509d00-e0a3-11eb-933b-5ce01fff9e55.png)
 
@@ -42,6 +42,9 @@ but, if we search like this (like in SQL: like '%engin%''), we can't find any re
 
 It is an open-source Analytics and full-text search engine. It was first released by **Elasticsearch N.V** in 2010. Elasticsearch built upon [Apache Lucene](https://lucene.apache.org/core/). It is for all types of data, including textual, numerical, structured, and unstructured.
 With the help of Elasticsearch, we can store, search data very quickly. Many large organizations across the world use it.
+
+![](https://github.com/neelanshijain3111998/NeelanshiMarkdown/blob/master/images/RelationalElastic.png)
+
 An Elasticsearch document looks like this -
 
 ```
